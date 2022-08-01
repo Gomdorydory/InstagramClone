@@ -27,7 +27,7 @@ function MyFooter() {
         <Buttons text={MagnifyingGlass} />
         <Buttons text={Film} />
         <Buttons text={Bag} />
-        <Link to={"/"}>
+        <Link to={"/signin"}>
           <div className="FooterProfilePicture"></div>
         </Link>
       </div>

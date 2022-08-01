@@ -5,6 +5,8 @@ import "./App.css";
 
 import New from "./pages/New";
 import Home from "./pages/Home";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 
 // fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -101,6 +103,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="new" element={<New />} />
+              <Route path="/signin" element={<SignIn />} />
+              <Route path="/signup" element={<SignUp />} />
             </Routes>
           </BrowserRouter>
         </div>
